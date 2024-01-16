@@ -1,0 +1,11 @@
+@media (max-width:768px){
+    .main-wrapper{
+        height: auto;
+    }
+    .box-wrapper{
+        display: block;
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+}

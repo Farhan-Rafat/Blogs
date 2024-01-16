@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    max-width: 330px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #f5f7f9;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    max-width: 1100px;
+}
+.main-container h2{
+    text-align: center;
+    color: #616161;
+    text-transform: uppercase;
+    letter-spacing: 1.31px;
+    margin-bottom: 50px;
+}
+.box-wrapper{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.image-box{
+    max-width: 330px;
+    max-height: 175px;
+    overflow: hidden;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    padding: 0 40px;
+}
+.info-area p{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+.info-area a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+}
+.info-area a.animals{
+    background-color: #189367;
+    padding: 4px 18px;
+    border-radius: 20px;
+}
+.info-area a.lifestyles{
+    background-color: #22a09f;
+    padding: 4px 18px;
+    border-radius: 20px;
+}
+.info-area a.history{
+    background-color:#06356b;
+    padding: 4px 18px;
+    border-radius: 20px;
+}
+.description-box{
+    max-width: 280px;
+    margin: 0 auto;
+}
+.description-box h3{
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding-left: 15px;   
+}
+.description-box p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #7f7f7f;
+    padding-left: 15px;
+}
+.description-box p.middle{
+    margin-bottom: 65px;
+}
+.link-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding:0 30px 30px 0;
+}
+.link-box a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #656565;
+}
+.link-box a.active{
+    text-transform: uppercase;
+}
+.link-box i{
+    background-color: #0a474f;
+    padding: 6px;
+    clip-path: circle();
+}
